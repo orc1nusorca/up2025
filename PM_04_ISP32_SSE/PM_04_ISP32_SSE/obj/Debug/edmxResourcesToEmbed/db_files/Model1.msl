@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище PM04_ISP32_SSEModelContainer" CdmEntityContainer="PM04_ISP32_SSE_db">
+    <EntitySetMapping Name="History_UpdateCount">
+      <EntityTypeMapping TypeName="PM04_ISP32_SSEModel.History_UpdateCount">
+        <MappingFragment StoreEntitySet="History_UpdateCount">
+          <ScalarProperty Name="id_historyupdate" ColumnName="id_historyupdate" />
+          <ScalarProperty Name="name_material" ColumnName="name_material" />
+          <ScalarProperty Name="count_old" ColumnName="count_old" />
+          <ScalarProperty Name="count_new" ColumnName="count_new" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Materials">
+      <EntityTypeMapping TypeName="PM04_ISP32_SSEModel.Material">
+        <MappingFragment StoreEntitySet="Material">
+          <ScalarProperty Name="id_material" ColumnName="id_material" />
+          <ScalarProperty Name="name_material" ColumnName="name_material" />
+          <ScalarProperty Name="image" ColumnName="image" />
+          <ScalarProperty Name="ostatok" ColumnName="ostatok" />
+          <ScalarProperty Name="cena" ColumnName="cena" />
+          <ScalarProperty Name="id_type" ColumnName="id_type" />
+          <ScalarProperty Name="opisanie" ColumnName="opisanie" />
+          <ScalarProperty Name="ed_ismer" ColumnName="ed_ismer" />
+          <ScalarProperty Name="kol_na_sklade" ColumnName="kol_na_sklade" />
+          <ScalarProperty Name="kol_v_upakovke" ColumnName="kol_v_upakovke" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Material_Produkcia">
+      <EntityTypeMapping TypeName="PM04_ISP32_SSEModel.Material_Produkcia">
+        <MappingFragment StoreEntitySet="Material_Produkcia">
+          <ScalarProperty Name="id_material" ColumnName="id_material" />
+          <ScalarProperty Name="id_produkcia" ColumnName="id_produkcia" />
+          <ScalarProperty Name="min_kol_material" ColumnName="min_kol_material" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Postavshiks">
+      <EntityTypeMapping TypeName="PM04_ISP32_SSEModel.Postavshik">
+        <MappingFragment StoreEntitySet="Postavshik">
+          <ScalarProperty Name="id_postavshik" ColumnName="id_postavshik" />
+          <ScalarProperty Name="name_postavshik" ColumnName="name_postavshik" />
+          <ScalarProperty Name="email_postavshik" ColumnName="email_postavshik" />
+          <ScalarProperty Name="phone_postavshik" ColumnName="phone_postavshik" />
+          <ScalarProperty Name="logo_postavshik" ColumnName="logo_postavshik" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Produkcias">
+      <EntityTypeMapping TypeName="PM04_ISP32_SSEModel.Produkcia">
+        <MappingFragment StoreEntitySet="Produkcia">
+          <ScalarProperty Name="id_produkcia" ColumnName="id_produkcia" />
+          <ScalarProperty Name="name_produkcia" ColumnName="name_produkcia" />
+          <ScalarProperty Name="id_proizvodstvo" ColumnName="id_proizvodstvo" />
+          <ScalarProperty Name="id_type_produkcii" ColumnName="id_type_produkcii" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proizvodstvoes">
+      <EntityTypeMapping TypeName="PM04_ISP32_SSEModel.Proizvodstvo">
+        <MappingFragment StoreEntitySet="Proizvodstvo">
+          <ScalarProperty Name="id_proizvodstvo" ColumnName="id_proizvodstvo" />
+          <ScalarProperty Name="name_proizvodstvo" ColumnName="name_proizvodstvo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sklads">
+      <EntityTypeMapping TypeName="PM04_ISP32_SSEModel.Sklad">
+        <MappingFragment StoreEntitySet="Sklad">
+          <ScalarProperty Name="id_material" ColumnName="id_material" />
+          <ScalarProperty Name="id_postavshik" ColumnName="id_postavshik" />
+          <ScalarProperty Name="stoimost_ed" ColumnName="stoimost_ed" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sotrudniks">
+      <EntityTypeMapping TypeName="PM04_ISP32_SSEModel.Sotrudnik">
+        <MappingFragment StoreEntitySet="Sotrudnik">
+          <ScalarProperty Name="id_sotrudnik" ColumnName="id_sotrudnik" />
+          <ScalarProperty Name="FIO" ColumnName="FIO" />
+          <ScalarProperty Name="id_proizvodstvo" ColumnName="id_proizvodstvo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Types">
+      <EntityTypeMapping TypeName="PM04_ISP32_SSEModel.Type">
+        <MappingFragment StoreEntitySet="Type">
+          <ScalarProperty Name="id_type" ColumnName="id_type" />
+          <ScalarProperty Name="name_type" ColumnName="name_type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Type_Produkcii">
+      <EntityTypeMapping TypeName="PM04_ISP32_SSEModel.Type_Produkcii">
+        <MappingFragment StoreEntitySet="Type_Produkcii">
+          <ScalarProperty Name="id_type_produkcii" ColumnName="id_type_produkcii" />
+          <ScalarProperty Name="type_produkcii1" ColumnName="type_produkcii" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

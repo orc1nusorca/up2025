@@ -1,0 +1,6 @@
+C:\Users\User\source\repos\PM_04_ISP32_SSE\WSUniversalLib\bin\Debug\WSUniversalLib.dll
+C:\Users\User\source\repos\PM_04_ISP32_SSE\WSUniversalLib\bin\Debug\WSUniversalLib.pdb
+C:\Users\User\source\repos\PM_04_ISP32_SSE\WSUniversalLib\obj\Debug\WSUniversalLib.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\PM_04_ISP32_SSE\WSUniversalLib\obj\Debug\WSUniversalLib.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\PM_04_ISP32_SSE\WSUniversalLib\obj\Debug\WSUniversalLib.dll
+C:\Users\User\source\repos\PM_04_ISP32_SSE\WSUniversalLib\obj\Debug\WSUniversalLib.pdb

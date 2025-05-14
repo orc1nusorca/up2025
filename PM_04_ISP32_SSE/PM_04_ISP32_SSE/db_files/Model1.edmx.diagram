@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="404d61fc19f64bedbac04eddc23e6840" Name="Diagram1">
+        <EntityTypeShape EntityType="PM04_ISP32_SSEModel.History_UpdateCount" Width="1.5" PointX="5.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM04_ISP32_SSEModel.Material" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM04_ISP32_SSEModel.Material_Produkcia" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM04_ISP32_SSEModel.Postavshik" Width="1.5" PointX="3" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM04_ISP32_SSEModel.Produkcia" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM04_ISP32_SSEModel.Proizvodstvo" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM04_ISP32_SSEModel.Sklad" Width="1.5" PointX="5.25" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM04_ISP32_SSEModel.Sotrudnik" Width="1.5" PointX="3" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM04_ISP32_SSEModel.Type" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM04_ISP32_SSEModel.Type_Produkcii" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="PM04_ISP32_SSEModel.FK_Material_Produkcia_Material" ManuallyRouted="false" />
+        <AssociationConnector Association="PM04_ISP32_SSEModel.FK_Material_Type" ManuallyRouted="false" />
+        <AssociationConnector Association="PM04_ISP32_SSEModel.FK_Sklad_Material" ManuallyRouted="false" />
+        <AssociationConnector Association="PM04_ISP32_SSEModel.FK_Material_Produkcia_Produkcia" ManuallyRouted="false" />
+        <AssociationConnector Association="PM04_ISP32_SSEModel.FK_Sklad_Postavshik" ManuallyRouted="false" />
+        <AssociationConnector Association="PM04_ISP32_SSEModel.FK_Produkcia_Proizvodstvo" ManuallyRouted="false" />
+        <AssociationConnector Association="PM04_ISP32_SSEModel.FK_Produkcia_Type_Produkcii" ManuallyRouted="false" />
+        <AssociationConnector Association="PM04_ISP32_SSEModel.FK_Sotrudnik_Proizvodstvo" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

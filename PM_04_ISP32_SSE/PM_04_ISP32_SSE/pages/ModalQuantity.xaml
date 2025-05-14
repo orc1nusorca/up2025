@@ -1,0 +1,16 @@
+﻿<Window x:Class="PM_04_ISP32_SSE.pages.ModalQuantity"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PM_04_ISP32_SSE.pages"
+        mc:Ignorable="d"
+        Title="Изменить минимальное количество"
+        SizeToContent="WidthAndHeight"
+        WindowStartupLocation="CenterOwner">
+    <StackPanel Margin="15">
+        <TextBlock Text="Новое значение:" Margin="0,0,0,5"/>
+        <TextBox Name="QuantityTextBox" Width="200" Margin="0,0,0,10"/>
+        <Button Content="Применить" Click="Apply_Click" Width="100" HorizontalAlignment="Right"/>
+    </StackPanel>
+</Window>
