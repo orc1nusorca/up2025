@@ -14,21 +14,13 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Runtime.Remoting.Contexts;
 
 namespace PM_04_ISP32_SSE.pages
 {
     /// <summary>
     /// Логика взаимодействия для MaterialEdit.xaml
     /// </summary>
-    using System;
-    using System.IO;
-    using System.Windows;
-    using System.Windows.Controls;
-    using System.Windows.Input;
-    using System.Windows.Media.Imaging;
-    using Microsoft.Win32;
-    using System.Data.Entity;
-    using System.Runtime.Remoting.Contexts;
 
     public partial class MaterialEdit : Window
     {

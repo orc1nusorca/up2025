@@ -4,20 +4,15 @@
              xmlns:local="clr-namespace:PM_04_ISP32_SSE"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <!-- Основные цвета -->
         <SolidColorBrush x:Key="MainColor" Color="#FEA9AB"/>
         <SolidColorBrush x:Key="AccentColor" Color="#EAB14D"/>
         <SolidColorBrush x:Key="BackgroundColor" Color="#FFF"/>
         <SolidColorBrush x:Key="TextColor" Color="#FF333333"/>
-
-        <!-- Базовый стиль текста -->
         <Style TargetType="TextBlock">
             <Setter Property="FontFamily" Value="Segoe Print"/>
             <Setter Property="FontSize" Value="14"/>
             <Setter Property="Foreground" Value="{StaticResource TextColor}"/>
         </Style>
-
-        <!-- Поля ввода -->
         <Style TargetType="TextBox">
             <Setter Property="FontFamily" Value="Segoe Print"/>
             <Setter Property="FontSize" Value="14"/>
@@ -27,8 +22,6 @@
             <Setter Property="Padding" Value="8"/>
             <Setter Property="Margin" Value="5"/>
         </Style>
-
-        <!-- Выпадающие списки -->
         <Style TargetType="ComboBox">
             <Setter Property="FontFamily" Value="Segoe Print"/>
             <Setter Property="FontSize" Value="14"/>
@@ -38,8 +31,6 @@
             <Setter Property="Padding" Value="8"/>
             <Setter Property="Height" Value="35"/>
         </Style>
-
-        <!-- Кнопки -->
         <Style TargetType="Button">
             <Setter Property="FontFamily" Value="Segoe Print"/>
             <Setter Property="FontSize" Value="14"/>
@@ -50,14 +41,10 @@
             <Setter Property="Margin" Value="5"/>
             <Setter Property="Cursor" Value="Hand"/>
         </Style>
-
-        <!-- Список материалов -->
         <Style TargetType="ListView">
             <Setter Property="Background" Value="White"/>
             <Setter Property="BorderThickness" Value="0"/>
         </Style>
-
-        <!-- Элементы списка -->
         <Style TargetType="ListViewItem">
             <Setter Property="Background" Value="White"/>
             <Setter Property="Margin" Value="0 0 0 5"/>

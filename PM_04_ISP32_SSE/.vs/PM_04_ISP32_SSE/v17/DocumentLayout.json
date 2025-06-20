@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\PM_04_ISP32_SSE\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\up2025\\PM_04_ISP32_SSE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{107EF140-BC56-4E00-AABD-E155FA3BF428}|WSUniversalLibTest\\WSUniversalLibTest.csproj|c:\\users\\user\\source\\repos\\pm_04_isp32_sse\\wsuniversallibtest\\testingmodul.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{107EF140-BC56-4E00-AABD-E155FA3BF428}|WSUniversalLibTest\\WSUniversalLibTest.csproj|solutionrelative:wsuniversallibtest\\testingmodul.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D2A9D2A-6575-4B8A-B469-E894B0C5ED60}|PM_04_ISP32_SSE\\PM_04_ISP32_SSE.csproj|c:\\users\\user\\source\\repos\\up2025\\pm_04_isp32_sse\\pm_04_isp32_sse\\pages\\materiallist.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{3D2A9D2A-6575-4B8A-B469-E894B0C5ED60}|PM_04_ISP32_SSE\\PM_04_ISP32_SSE.csproj|solutionrelative:pm_04_isp32_sse\\pages\\materiallist.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A90CE5F-DBAD-41BD-B65D-DB3BE4A07D96}|WSUniversalLib\\WSUniversalLib.csproj|C:\\Users\\User\\source\\repos\\PM_04_ISP32_SSE\\wsuniversallib\\materialscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A90CE5F-DBAD-41BD-B65D-DB3BE4A07D96}|WSUniversalLib\\WSUniversalLib.csproj|solutionrelative:wsuniversallib\\materialscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D2A9D2A-6575-4B8A-B469-E894B0C5ED60}|PM_04_ISP32_SSE\\PM_04_ISP32_SSE.csproj|c:\\users\\user\\source\\repos\\up2025\\pm_04_isp32_sse\\pm_04_isp32_sse\\pages\\materiallist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3D2A9D2A-6575-4B8A-B469-E894B0C5ED60}|PM_04_ISP32_SSE\\PM_04_ISP32_SSE.csproj|solutionrelative:pm_04_isp32_sse\\pages\\materiallist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D2A9D2A-6575-4B8A-B469-E894B0C5ED60}|PM_04_ISP32_SSE\\PM_04_ISP32_SSE.csproj|C:\\Users\\User\\source\\repos\\PM_04_ISP32_SSE\\pm_04_isp32_sse\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3D2A9D2A-6575-4B8A-B469-E894B0C5ED60}|PM_04_ISP32_SSE\\PM_04_ISP32_SSE.csproj|solutionrelative:pm_04_isp32_sse\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{3D2A9D2A-6575-4B8A-B469-E894B0C5ED60}|PM_04_ISP32_SSE\\PM_04_ISP32_SSE.csproj|c:\\users\\user\\source\\repos\\up2025\\pm_04_isp32_sse\\pm_04_isp32_sse\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3D2A9D2A-6575-4B8A-B469-E894B0C5ED60}|PM_04_ISP32_SSE\\PM_04_ISP32_SSE.csproj|solutionrelative:pm_04_isp32_sse\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D2A9D2A-6575-4B8A-B469-E894B0C5ED60}|PM_04_ISP32_SSE\\PM_04_ISP32_SSE.csproj|c:\\users\\user\\source\\repos\\up2025\\pm_04_isp32_sse\\pm_04_isp32_sse\\pages\\materialedit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D2A9D2A-6575-4B8A-B469-E894B0C5ED60}|PM_04_ISP32_SSE\\PM_04_ISP32_SSE.csproj|solutionrelative:pm_04_isp32_sse\\pages\\materialedit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,38 +35,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TestingModul.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PM_04_ISP32_SSE\\WSUniversalLibTest\\TestingModul.cs",
-              "RelativeDocumentMoniker": "WSUniversalLibTest\\TestingModul.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\PM_04_ISP32_SSE\\WSUniversalLibTest\\TestingModul.cs",
-              "RelativeToolTip": "WSUniversalLibTest\\TestingModul.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAuwGYAAAAqAAAAAAAAAA==",
+              "Title": "MaterialList.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\up2025\\PM_04_ISP32_SSE\\PM_04_ISP32_SSE\\pages\\MaterialList.xaml.cs",
+              "RelativeDocumentMoniker": "PM_04_ISP32_SSE\\pages\\MaterialList.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\up2025\\PM_04_ISP32_SSE\\PM_04_ISP32_SSE\\pages\\MaterialList.xaml.cs",
+              "RelativeToolTip": "PM_04_ISP32_SSE\\pages\\MaterialList.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T11:37:35.497Z",
+              "WhenOpened": "2025-06-16T06:00:29.016Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MaterialsCount.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PM_04_ISP32_SSE\\WSUniversalLib\\MaterialsCount.cs",
-              "RelativeDocumentMoniker": "WSUniversalLib\\MaterialsCount.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\PM_04_ISP32_SSE\\WSUniversalLib\\MaterialsCount.cs",
-              "RelativeToolTip": "WSUniversalLib\\MaterialsCount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Title": "MaterialList.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\up2025\\PM_04_ISP32_SSE\\PM_04_ISP32_SSE\\pages\\MaterialList.xaml",
+              "RelativeDocumentMoniker": "PM_04_ISP32_SSE\\pages\\MaterialList.xaml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\up2025\\PM_04_ISP32_SSE\\PM_04_ISP32_SSE\\pages\\MaterialList.xaml",
+              "RelativeToolTip": "PM_04_ISP32_SSE\\pages\\MaterialList.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-16T05:53:46.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MaterialEdit.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\up2025\\PM_04_ISP32_SSE\\PM_04_ISP32_SSE\\pages\\MaterialEdit.xaml.cs",
+              "RelativeDocumentMoniker": "PM_04_ISP32_SSE\\pages\\MaterialEdit.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\up2025\\PM_04_ISP32_SSE\\PM_04_ISP32_SSE\\pages\\MaterialEdit.xaml.cs",
+              "RelativeToolTip": "PM_04_ISP32_SSE\\pages\\MaterialEdit.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:26:52.711Z"
+              "WhenOpened": "2025-06-16T05:53:44.854Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PM_04_ISP32_SSE\\PM_04_ISP32_SSE\\App.xaml",
-              "RelativeDocumentMoniker": "PM_04_ISP32_SSE\\App.xaml",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\PM_04_ISP32_SSE\\PM_04_ISP32_SSE\\App.xaml",
-              "RelativeToolTip": "PM_04_ISP32_SSE\\App.xaml",
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\up2025\\PM_04_ISP32_SSE\\PM_04_ISP32_SSE\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "PM_04_ISP32_SSE\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\up2025\\PM_04_ISP32_SSE\\PM_04_ISP32_SSE\\MainWindow.xaml",
+              "RelativeToolTip": "PM_04_ISP32_SSE\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-12T20:03:29.946Z"
+              "WhenOpened": "2025-06-16T05:53:38.164Z",
+              "EditorCaption": ""
             }
           ]
         }
